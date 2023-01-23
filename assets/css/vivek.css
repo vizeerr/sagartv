@@ -1,0 +1,122 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap'); */
+
+body{
+    margin:0;
+    padding:0;
+    background-color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.snav {
+    position: fixed;
+    width: 100%;
+    background: #000;
+    z-index: 2;
+    box-shadow: 12px 10px 20px 8px rgb(0 0 0 / 63%);
+    text-align: center;
+}
+
+.snav h2 {
+    position: relative;
+    font-weight: 100;
+    margin: 5px;
+    /* float: left; */
+    margin-left: 1em;
+    font-size: 2.1em;
+    display: none;
+    font-family: 'Yesteryear', cursive;
+    color: #ffffff;
+}
+
+#content{
+    position: relative;
+    top: 7em;
+}
+
+.heading{
+    position: relative;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 40px;
+}
+#charactersList,#charactersListfav{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.col-6{
+    background: black;
+    padding: 15px 15px;
+    margin: 20px;
+    border-radius: 16px;
+    flex: 20%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 12px 10px 20px 8px rgb(0 0 0 / 63%);
+}
+
+.col-6 .card-img-top{
+    height: 178px !important;
+}
+
+.card{
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card-body{
+
+}
+
+.card-title{
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+
+}
+.card-text{
+    background: #ffdf00;
+    padding: 10px;
+    border-radius: 53px;
+}
+.badge{
+    display: none;
+}
+.card-text .badge:nth-child(1),.badge:nth-child(2){
+    display: contents;
+    font-size: 14px;
+    color: #000;
+}
+
+.containerfav{
+    margin-bottom: 100px;
+}
+
+#b {
+    background-color: #ffdf00;
+    transition-duration: 0.4s;
+}
+.sub {
+    margin: 20px;
+    border-radius: 62px;
+    box-shadow: 9px 11px 20px 0px rgb(0 0 0 / 47%);
+    padding: 1px 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.sub p{
+    padding: 0px 24px;
+}
+
+.btn{
+    text-decoration: none;
+    color: #000;
+}
